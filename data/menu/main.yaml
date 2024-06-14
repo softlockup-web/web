@@ -1,0 +1,11 @@
+---
+main:
+  - name: Posts
+    ref: "/posts"
+    icon: "gdoc_notification"
+    sub:
+      - name: Linux
+        ref: "/posts/Linux"
+        sub:
+          - name: "Kernel"
+            ref: "/posts/Linux/Kernel"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Soft Lockup - Documentation &amp; Wisdom</title>
+    <link>http://localhost:1313/Test/</link>
+    <description>Recent content in Test on Soft Lockup - Documentation &amp; Wisdom</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2024 11:03:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/Test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testpost</title>
+      <link>http://localhost:1313/Test/template_post/</link>
+      <pubDate>Fri, 14 Jun 2024 11:03:41 +0100</pubDate>
+      <guid>http://localhost:1313/Test/template_post/</guid>
+      <description>Advertisement :)&#xA;pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like those projects!&#xA;h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.&#xA;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&#xA;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&#xA;!!!!!! ???? ,, &amp;ndash; &amp;mdash;</description>
+    </item>
+  </channel>
+</rss>
