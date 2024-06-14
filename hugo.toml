@@ -2,9 +2,6 @@ baseURL = 'https://softlockup.com/'
 languageCode = 'en-us'
 title = 'Soft Lockup - Documentation & Wisdom'
 theme = 'hugo-geekdoc'
-baseURL = "http://localhost"
-title = "Geekdocs"
-theme = "hugo-geekdoc"
 
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
