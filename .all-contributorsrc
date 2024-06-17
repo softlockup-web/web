@@ -1,4 +1,21 @@
 {
   "projectName": "web",
-  "projectOwner": "softlockup-web"
+  "projectOwner": "softlockup-web",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "samatild",
+      "name": "Samuel Matildes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68650029?v=4",
+      "profile": "https://github.com/samatild",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
 }
