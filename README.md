@@ -48,6 +48,7 @@ Feel free to use and distribute the content under [The GNU Free Documentation Li
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://porotnikov.com"><img src="https://avatars.githubusercontent.com/u/25619884?v=4?s=100" width="100px;" alt="Dmitry Porotnikov"/><br /><sub><b>Dmitry Porotnikov</b></sub></a><br /><a href="#content-dmitryporotnikov" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/samatild"><img src="https://avatars.githubusercontent.com/u/68650029?v=4?s=100" width="100px;" alt="Samuel Matildes"/><br /><sub><b>Samuel Matildes</b></sub></a><br /><a href="#content-samatild" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
