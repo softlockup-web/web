@@ -9,7 +9,7 @@ publishdate: 2017-03-24
 <!-- markdownlint-disable MD033 -->
 
 <span class="badge-placeholder">![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/softlockup-web/web/hugo.yaml)</span>
-<span class="badge-placeholder">![GitHub contributors from allcontributors.org](https://img.shields.io/github/all-contributors/softlockup-web/web)</span>
+<span class="badge-placeholder">[![All Contributors](https://img.shields.io/github/all-contributors/softlockup-web/web?color=ee8449&style=flat-square)](#contributors)</span>
 <span class="badge-placeholder">[![License: MIT](https://img.shields.io/github/license/softlockup-web/web)](https://github.com/softlockup-web/web/blob/main/LICENSE)</span>
 
 <!-- markdownlint-restore -->
