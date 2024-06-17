@@ -1,13 +1,9 @@
 ---
 more:
   - name: News
-    ref: "/posts"
+    ref: "/content"
     icon: "gdoc_notification"
-  - name: Releases
-    ref: "https://github.com/thegeeklab/hugo-geekdoc/releases"
-    external: true
-    icon: "gdoc_download"
   - name: View Source
-    ref: "https://github.com/thegeeklab/hugo-geekdoc"
+    ref: "https://github.com/softlockup-web/web"
     external: true
     icon: "gdoc_github"

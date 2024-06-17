@@ -1,67 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to the documentation on For people who don&#39;t RTFM</title>
+    <title>Softlockup: Where IT Wizards Find Their Spells</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to the documentation on For people who don&#39;t RTFM</description>
+    <description>Recent content on Softlockup: Where IT Wizards Find Their Spells</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2024 14:39:57 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testpost</title>
-      <link>http://localhost:1313/Test/template_post/</link>
-      <pubDate>Fri, 14 Jun 2024 11:03:41 +0100</pubDate>
-      <guid>http://localhost:1313/Test/template_post/</guid>
-      <description>Advertisement :)&#xA;pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like those projects!&#xA;h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.&#xA;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&#xA;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&#xA;!!!!!! ???? ,, &amp;ndash; &amp;mdash;</description>
-    </item>
-    <item>
-      <title></title>
+      <title>Linux softlockup</title>
       <link>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
       <guid>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</guid>
       <description>HELLLOOO asdasd</description>
     </item>
     <item>
-      <title></title>
+      <title>Windows Article 1</title>
       <link>http://localhost:1313/Windows/WindowsPage1/WindowsArticle1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
       <guid>http://localhost:1313/Windows/WindowsPage1/WindowsArticle1/</guid>
-      <description></description>
+      <description>asdsd</description>
+    </item>
+    <item>
+      <title>Windows Article 2</title>
+      <link>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</link>
+      <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
+      <guid>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</guid>
+      <description>sdssd</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</link>
+      <link>http://localhost:1313/authors/John-Doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Level 1.1</title>
-      <link>http://localhost:1313/collapse/level-1/level-1-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collapse/level-1/level-1-1/</guid>
-      <description>Level 1.1</description>
-    </item>
-    <item>
-      <title>Level 1.2</title>
-      <link>http://localhost:1313/collapse/level-1/level-1-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collapse/level-1/level-1-2/</guid>
-      <description>Level 1.2</description>
-    </item>
-    <item>
-      <title>Level 2.1</title>
-      <link>http://localhost:1313/collapse/level-2/level-2-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collapse/level-2/level-2-1/</guid>
-      <description>Level 2.1</description>
-    </item>
-    <item>
-      <title>Level 2.2</title>
-      <link>http://localhost:1313/collapse/level-2/level-2-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collapse/level-2/level-2-2/</guid>
-      <description>Level 2.2</description>
+      <guid>http://localhost:1313/authors/John-Doe/</guid>
+      <description>I&amp;rsquo;m jhon doe</description>
     </item>
   </channel>
 </rss>

@@ -8,22 +8,22 @@
     <loc>http://localhost:1313/Windows/</loc>
     <lastmod>2024-06-14T14:39:57+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collapse/</loc>
+    <loc>http://localhost:1313/tags/kernel/</loc>
     <lastmod>2024-06-14T14:39:57+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Test/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Test/template_post/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-1/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-2/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-06-14T14:39:57+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</loc>
+    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/softlockup/</loc>
+    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2024-06-14T14:39:57+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Windows/WindowsPage1/WindowsArticle1/</loc>
@@ -32,26 +32,13 @@
     <loc>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</loc>
     <lastmod>2024-06-14T14:39:57+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-1/level-1-1/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-1/level-1-2/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-2/level-2-1/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collapse/level-2/level-2-2/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Linux/Kernel/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2024-06-17T10:26:35+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/John-Doe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
