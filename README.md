@@ -44,6 +44,13 @@ Feel free to use and distribute the content under [The GNU Free Documentation Li
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/samatild"><img src="https://avatars.githubusercontent.com/u/68650029?v=4?s=100" width="100px;" alt="Samuel Matildes"/><br /><sub><b>Samuel Matildes</b></sub></a><br /><a href="#content-samatild" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
