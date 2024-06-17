@@ -8,7 +8,7 @@
     </article>
     <div class="articles">
       <!-- List articles under content/Linux -->
-      {{ range where .Site.RegularPages "Section" "linux" }}
+      {{ range where .Site.RegularPages "Section" "systemadministration" }}
         <div class="article-block">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           <p class="description">{{ .Params.description }}</p>

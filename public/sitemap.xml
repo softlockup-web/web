@@ -2,42 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Linux/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/Cloud/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Windows/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Windows/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Linux/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Networking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cybersecurity/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Automation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/MacOS/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SoftwareDevelopment/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Cloud/cloudarticle1/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kernel/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/softlockup/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/windows/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Windows/WindowsPage1/WindowsArticle1/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Windows/WindowsPage2/WindowsArticle2/</loc>
-    <lastmod>2024-06-14T14:39:57+01:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</loc>
+    <lastmod>2023-10-19T00:40:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-17T10:26:35+01:00</lastmod>
+    <lastmod>2024-06-17T13:59:22+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2024-06-17T13:23:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/John-Doe/</loc>
+    <lastmod>2024-06-17T13:23:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <main>
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      {{ .Content }}
+    </article>
+    <div class="articles">
+      <!-- List articles under content/Linux -->
+      {{ range where .Pages "Section" "systemadministration" }}
+        <div class="article-block">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p class="description">{{ .Params.description }}</p>
+            <p class="date">{{ .Date.Format "2006-01-02" }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}
