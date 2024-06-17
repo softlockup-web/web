@@ -10,7 +10,12 @@
     {{ partial "utils/content" . }}
   </article>
   <footer class="article-footer">
-    <p><strong>Author:</strong> <a href="{{ "/authors/" | relLangURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
+    {{ if .Params.authorURL }}
+    <p><strong>Author:</strong> <a href="{{ .Params.authorURL }}">{{ .Params.author }}</a></p>
+    {{ else }}
+    <p><strong>Author:</strong> {{ .Params.author }}</p>
+    {{ end }}
+    
     <p><strong>Tags:{{ range .Params.tags }}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ if not (eq (index $.Params.tags (sub (len $.Params.tags) 1)) .) }}, {{ end }}
     {{ end }}</strong> 

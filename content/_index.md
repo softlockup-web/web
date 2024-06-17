@@ -14,7 +14,9 @@ publishdate: 2017-03-24
 
 <!-- markdownlint-restore -->
 
-Geekdoc is a simple Hugo theme for documentations. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there.
+
+Softlockup provides comprehensive documentation on a wide range of IT topics, including but not limited to system administration, networking, cybersecurity, and software development. Our goal is to create an open and collaborative platform where IT engineers can find and share knowledge.
 
 
+## Latest Articles
 

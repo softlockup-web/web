@@ -29,25 +29,31 @@
     <loc>http://localhost:1313/SoftwareDevelopment/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kernel/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
+    <lastmod>2024-06-17T17:21:37+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</loc>
-    <lastmod>2024-06-17T00:40:04-07:00</lastmod>
+    <lastmod>2024-06-17T17:21:37+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/softlockup/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-06-17T17:21:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sysadmin/</loc>
+    <lastmod>2024-06-17T17:21:37+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
+    <lastmod>2024-06-17T17:21:37+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SystemAdministration/Cloud/cloudarticle1/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/kernel/</loc>
+    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</loc>
+    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/softlockup/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/windows/</loc>
