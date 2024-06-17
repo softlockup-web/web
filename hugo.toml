@@ -1,0 +1,17 @@
+baseURL = 'https://softlockup.com/'
+languageCode = 'en-us'
+title = "Softlockup: Where IT Wizards Find Their Spells"
+theme = 'hugo-geekdoc'
+
+# Required to get well formatted code blocks
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+  # (Optional, default false) Render menu from data file in 'data/menu/main.yaml'.
+  # See also https://geekdocs.de/usage/menus/#bundle-menu.
+  geekdocMenuBundle = true

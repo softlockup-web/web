@@ -1,0 +1,30 @@
+{
+  "projectName": "web",
+  "projectOwner": "softlockup-web",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "dmitryporotnikov",
+      "name": "Dmitry Porotnikov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25619884?v=4",
+      "profile": "http://porotnikov.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "samatild",
+      "name": "Samuel Matildes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68650029?v=4",
+      "profile": "https://github.com/samatild",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
+}
