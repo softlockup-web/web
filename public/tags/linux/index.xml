@@ -6,8 +6,15 @@
     <description>Recent content in Linux on Softlockup: Where IT Wizards Find Their Spells</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Oct 2023 00:40:04 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 14:40:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Reboot Quick Analyzer</title>
+      <link>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</link>
+      <pubDate>Mon, 17 Jun 2024 00:40:04 -0700</pubDate>
+      <guid>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</guid>
+      <description>Source What is Linux Boot/Shutdown Quick-Analyzer and why do you need it? How to run it Special arguments for special Serial Console logs! Conclusion Source&#xD;🔗 samatild/linuxrebootcheck&#xA;What is Linux Boot/Shutdown Quick-Analyzer and why do you need it?&#xD;The Linux Boot/Shutdown Quick-Analyzer is a Python script that analyzes Linux boot and shutdown logs.&#xA;It makes it easy to find boot and shutdown events in system logs, providing information such as the number of boot and shutdown events, along with the timestamp, filename, and line number for each event.</description>
+    </item>
     <item>
       <title>Cloud Article 1</title>
       <link>http://localhost:1313/SystemAdministration/Cloud/cloudarticle1/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</link>
       <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
       <guid>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</guid>
-      <description>HELLLOOO asdasd</description>
+      <description>HELLLOOO&#xD;asdasd</description>
     </item>
   </channel>
 </rss>
