@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Softlockup: Where IT Wizards Find Their Spells</title>
-    <link>http://localhost:1313/tags/python/</link>
-    <description>Recent content in Python on Softlockup: Where IT Wizards Find Their Spells</description>
+    <title>Python on Where IT Wizards Find Their Spells</title>
+    <link>http://localhost:40737/tags/python/</link>
+    <description>Recent content in Python on Where IT Wizards Find Their Spells</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 17:21:37 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jun 2024 22:13:08 +0100</lastBuildDate>
+    <atom:link href="http://localhost:40737/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Reboot Quick Analyzer</title>
-      <link>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</link>
+      <link>http://localhost:40737/SystemAdministration/Linux/linuxrebootcheck/</link>
       <pubDate>Mon, 17 Jun 2024 00:40:04 -0700</pubDate>
-      <guid>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</guid>
+      <guid>http://localhost:40737/SystemAdministration/Linux/linuxrebootcheck/</guid>
       <description>What is Linux Boot/Shutdown Quick-Analyzer and why do you need it?&#xD;The Linux Boot/Shutdown Quick-Analyzer is a Python script that analyzes Linux boot and shutdown logs.&#xA;It makes it easy to find boot and shutdown events in system logs, providing information such as the number of boot and shutdown events, along with the timestamp, filename, and line number for each event.&#xA;How to run it&#xD;You need to have Python 3 installed on your machine.</description>
     </item>
   </channel>

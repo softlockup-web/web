@@ -1,5 +1,5 @@
 ---
-title: "Where IT Wizards Find Their Spells"
+title: "Softlockup"
 geekdocAlign: center
 date: 2017-03-23
 publishdate: 2017-03-24

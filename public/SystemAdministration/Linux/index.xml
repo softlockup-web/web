@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Softlockup: Where IT Wizards Find Their Spells</title>
-    <link>http://localhost:1313/SystemAdministration/Linux/</link>
-    <description>Recent content in Linux on Softlockup: Where IT Wizards Find Their Spells</description>
+    <title>Linux on Where IT Wizards Find Their Spells</title>
+    <link>http://localhost:40737/SystemAdministration/Linux/</link>
+    <description>Recent content in Linux on Where IT Wizards Find Their Spells</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/SystemAdministration/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40737/SystemAdministration/Linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Reboot Quick Analyzer</title>
-      <link>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</link>
+      <link>http://localhost:40737/SystemAdministration/Linux/linuxrebootcheck/</link>
       <pubDate>Mon, 17 Jun 2024 00:40:04 -0700</pubDate>
-      <guid>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</guid>
+      <guid>http://localhost:40737/SystemAdministration/Linux/linuxrebootcheck/</guid>
       <description>What is Linux Boot/Shutdown Quick-Analyzer and why do you need it?&#xD;The Linux Boot/Shutdown Quick-Analyzer is a Python script that analyzes Linux boot and shutdown logs.&#xA;It makes it easy to find boot and shutdown events in system logs, providing information such as the number of boot and shutdown events, along with the timestamp, filename, and line number for each event.&#xA;How to run it&#xD;You need to have Python 3 installed on your machine.</description>
     </item>
     <item>
       <title>Linux softlockup</title>
-      <link>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</link>
+      <link>http://localhost:40737/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</link>
       <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
-      <guid>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</guid>
+      <guid>http://localhost:40737/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</guid>
       <description>HELLLOOO&#xD;asdasd</description>
     </item>
   </channel>
