@@ -44,6 +44,13 @@ Feel free to use and distribute the content under [The GNU Free Documentation Li
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://porotnikov.com"><img src="https://avatars.githubusercontent.com/u/25619884?v=4?s=100" width="100px;" alt="Dmitry Porotnikov"/><br /><sub><b>Dmitry Porotnikov</b></sub></a><br /><a href="#content-dmitryporotnikov" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
