@@ -4,10 +4,13 @@ Welcome to the official repository for [Softlockup](https://softlockup.com), a p
 
 ## Table of Contents
 
-- [About](#about)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
+- [Softlockup Documentation Site](#softlockup-documentation-site)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
+  - [License](#license)
+  - [Contributors](#contributors)
 
 ## About
 
@@ -35,3 +38,14 @@ GitHub Issues: [Issues Page](https://github.com/softlockup-web/web/issues)
 
 ## License
 Feel free to use and distribute the content under [The GNU Free Documentation License](https://www.gnu.org/licenses/licenses.en.html)
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
