@@ -82,6 +82,11 @@
   }
 }
 
+html {
+  font-size:15px;
+  letter-spacing:.33px;
+  scroll-behavior:smooth
+}
 /* Articles grid */
 .articles {
   display: grid;
