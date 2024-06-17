@@ -1,6 +1,6 @@
 baseURL = 'https://softlockup.com/'
 languageCode = 'en-us'
-title = 'Soft Lockup - Documentation & Wisdom'
+title = "Softlockup: Where IT Wizards Find Their Spells"
 theme = 'hugo-geekdoc'
 
 # Required to get well formatted code blocks

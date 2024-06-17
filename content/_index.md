@@ -1,8 +1,7 @@
 ---
-title: Welcome to the documentation
-geekdocNav: false
+title: "Softlockup: Where IT Wizards Find Their Spells"
 geekdocAlign: center
-geekdocAnchor: false
+
 ---
 
 <!-- markdownlint-capture -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Kernel on For people who don&#39;t RTFM</title>
+    <link>http://localhost:1313/Linux/Kernel/</link>
+    <description>Recent content in Linux Kernel on For people who don&#39;t RTFM</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/Linux/Kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</guid>
+      <description>HELLLOOO asdasd</description>
+    </item>
+  </channel>
+</rss>
