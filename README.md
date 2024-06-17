@@ -37,7 +37,8 @@ Email: contact@softlockup.com
 GitHub Issues: [Issues Page](https://github.com/softlockup-web/web/issues)
 
 ## License
-Feel free to use and distribute the content under [The GNU Free Documentation License](https://www.gnu.org/licenses/licenses.en.html)
+Creative Commons Attribution-ShareAlike (CC BY-SA)
+Check the [LICENSE](LICENSE) file for more information.
 
 ## Contributors
 
