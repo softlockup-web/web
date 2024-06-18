@@ -4,7 +4,7 @@
   class="color-toggle-hidden"
   
 >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40737&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
 
 
 
-    <title>Linux | Where IT Wizards Find Their Spells</title>
+    <title>Linux | SoftLockup</title>
 
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
 <link
@@ -36,9 +36,9 @@
     property="og:title"
     content="Linux"
   />
-  <meta property="og:site_name" content="Where IT Wizards Find Their Spells" />
+  <meta property="og:site_name" content="SoftLockup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:40737/tags/linux/" />
+<meta property="og:url" content="http://localhost:1313/tags/linux/" />
 
 
 
@@ -111,7 +111,7 @@
   href="/custom.css"
   media="all"
 />
-  <link href="http://localhost:40737/tags/linux/" rel="canonical" type="text/html" />
+  <link href="http://localhost:1313/tags/linux/" rel="canonical" type="text/html" />
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
@@ -148,14 +148,14 @@
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="http://localhost:40737/">
+      <a class="gdoc-brand gdoc-header__link" href="http://localhost:1313/">
         <span class="flex align-center">
           <img
             class="gdoc-brand__img"
             src="/brand.svg"
             alt=""
           />
-          <span class="gdoc-brand__title">Where IT Wizards Find Their Spells</span>
+          <span class="gdoc-brand__title">SoftLockup</span>
         </span>
       </a>
     </div>
@@ -220,7 +220,7 @@
         </span>
 
         <span class="gdoc-menu-header__home">
-          <a href="http://localhost:40737/" class="gdoc-header__link">
+          <a href="http://localhost:1313/" class="gdoc-header__link">
             <svg class="gdoc-icon gdoc_home">
               <title>Back to homepage</title>
               <use xlink:href="#gdoc_home"></use>
@@ -267,7 +267,7 @@
       placeholder="Search..."
       aria-label="Search"
       maxlength="64"
-      data-site-base-url="http://localhost:40737/"
+      data-site-base-url="http://localhost:1313/"
       data-site-lang="en"
     />
     <ul id="gdoc-search-results" class="gdoc-search__list"></ul>
@@ -635,10 +635,10 @@
               
                 <span class="flex">
                   <a
-                    href="/SystemAdministration/Linux/linuxrebootcheck/"
+                    href="/SystemAdministration/Linux/Kernel/softlockup/"
                     class="gdoc-nav__entry"
                   >
-                    Linux Reboot Quick Analyzer
+                    Linux Kernel - Deep Dive into Soft/Hard Lockups
                   </a>
                 </span>
               
@@ -671,10 +671,10 @@
               
                 <span class="flex">
                   <a
-                    href="/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/"
+                    href="/SystemAdministration/Linux/linuxrebootcheck/"
                     class="gdoc-nav__entry"
                   >
-                    Linux softlockup
+                    Linux Reboot Quick Analyzer
                   </a>
                 </span>
               
@@ -1046,6 +1046,140 @@
     <article class="gdoc-post">
       <header class="gdoc-post__header">
         <h1 class="gdoc-post__title">
+          <a href="/SystemAdministration/Linux/Kernel/softlockup/">Linux Kernel - Deep Dive into Soft/Hard Lockups</a>
+        </h1>
+      </header>
+
+      <section class="gdoc-markdown">
+        IntroductionKernel WatchdogAccording to Linux Kernel Documentation, the Linux kernel can act as a watchdog to detect both soft and hard lockups.
+The Linux Kernel Watchdog is a mechanism that monitors the system for both soft and hard lockups. It is designed to detect when a CPU is stuck in a loop and unable to make progress. When a soft lockup is detected, the watchdog will print a warning message to the system log.
+      </section>
+
+      <div class="gdoc-post__readmore">
+        
+          <a
+            class="flex-inline align-center fake-link"
+            title="Read full post"
+            href="/SystemAdministration/Linux/Kernel/softlockup/"
+          >
+            Read full post
+            <i class="gdoc-icon">gdoc_arrow_right_alt</i>
+          </a>
+        
+      </div>
+
+      <footer class="gdoc-post__footer">
+        <div class="flex flex-wrap align-center gdoc-post__meta">
+          <span class="flex align-center no-wrap">
+  <svg class="gdoc-icon gdoc_date"><use xlink:href="#gdoc_date"></use></svg>
+  <span class="gdoc-post__tag">
+    <time datetime="2024-06-18T00:40:04-07:00">
+      
+      Jun 18, 2024
+    </time>
+  </span>
+</span>
+
+<span class="flex align-center no-wrap">
+  <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
+  <span class="gdoc-post__tag">8 minutes to read</span>
+</span>
+
+
+
+  
+    
+    
+      
+        <span class="flex align-center no-wrap">
+          <svg class="gdoc-icon gdoc_bookmark"><use xlink:href="#gdoc_bookmark"></use></svg>
+          
+  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
+    <a
+      class="gdoc-button__link"
+      href="/tags/kernel/"
+      title="All posts tagged with &#39;kernel&#39;"
+    >
+      kernel
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+    
+    
+      
+        <span class="flex align-center">
+          
+  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
+    <a
+      class="gdoc-button__link"
+      href="/tags/linux/"
+      title="All posts tagged with &#39;linux&#39;"
+    >
+      linux
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+    
+    
+      
+        <span class="flex align-center">
+          
+  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
+    <a
+      class="gdoc-button__link"
+      href="/tags/sysadmin/"
+      title="All posts tagged with &#39;sysadmin&#39;"
+    >
+      sysadmin
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+    
+    
+      
+        <span class="flex align-center">
+          
+  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
+    <a
+      class="gdoc-button__link"
+      href="/tags/watchdog/"
+      title="All posts tagged with &#39;watchdog&#39;"
+    >
+      watchdog
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+
+
+
+
+        </div>
+      </footer>
+    </article>
+  
+    <article class="gdoc-post">
+      <header class="gdoc-post__header">
+        <h1 class="gdoc-post__title">
           <a href="/SystemAdministration/Linux/linuxrebootcheck/">Linux Reboot Quick Analyzer</a>
         </h1>
       </header>
@@ -1190,112 +1324,6 @@ How to run itYou need to have Python 3 installed on your machine.
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
   <span class="gdoc-post__tag">0 minutes to read</span>
-</span>
-
-
-
-  
-    
-    
-      
-        <span class="flex align-center no-wrap">
-          <svg class="gdoc-icon gdoc_bookmark"><use xlink:href="#gdoc_bookmark"></use></svg>
-          
-  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
-    <a
-      class="gdoc-button__link"
-      href="/tags/kernel/"
-      title="All posts tagged with &#39;kernel&#39;"
-    >
-      kernel
-    </a>
-  </span>
-
-        </span>
-      
-    
-    
-  
-    
-    
-      
-        <span class="flex align-center">
-          
-  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
-    <a
-      class="gdoc-button__link"
-      href="/tags/linux/"
-      title="All posts tagged with &#39;linux&#39;"
-    >
-      linux
-    </a>
-  </span>
-
-        </span>
-      
-    
-    
-  
-    
-    
-      
-        <span class="flex align-center">
-          
-  <span class="gdoc-post__tag gdoc-button gdoc-button--regular">
-    <a
-      class="gdoc-button__link"
-      href="/tags/softlockup/"
-      title="All posts tagged with &#39;softlockup&#39;"
-    >
-      softlockup
-    </a>
-  </span>
-
-        </span>
-      
-    
-    
-  
-
-
-
-
-        </div>
-      </footer>
-    </article>
-  
-    <article class="gdoc-post">
-      <header class="gdoc-post__header">
-        <h1 class="gdoc-post__title">
-          <a href="/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/">Linux softlockup</a>
-        </h1>
-      </header>
-
-      <section class="gdoc-markdown">
-        HELLLOOOasdasd
-      </section>
-
-      <div class="gdoc-post__readmore">
-        
-      </div>
-
-      <footer class="gdoc-post__footer">
-        <div class="flex flex-wrap align-center gdoc-post__meta">
-          <span class="flex align-center no-wrap">
-  <svg class="gdoc-icon gdoc_date"><use xlink:href="#gdoc_date"></use></svg>
-  <span class="gdoc-post__tag">
-    <time datetime="2024-06-17T14:40:30&#43;01:00">
-      
-        Updated on
-      
-      Jun 17, 2024
-    </time>
-  </span>
-</span>
-
-<span class="flex align-center no-wrap">
-  <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">One minute to read</span>
 </span>
 
 

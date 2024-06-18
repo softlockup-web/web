@@ -2,78 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:40737/SystemAdministration/Cloud/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Cloud/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/</loc>
+    <loc>http://localhost:1313/SystemAdministration/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Windows/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Windows/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Linux/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Linux/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/Networking/</loc>
+    <loc>http://localhost:1313/Networking/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/Cybersecurity/</loc>
+    <loc>http://localhost:1313/Cybersecurity/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/Automation/</loc>
+    <loc>http://localhost:1313/Automation/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/MacOS/</loc>
+    <loc>http://localhost:1313/SystemAdministration/MacOS/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SoftwareDevelopment/</loc>
+    <loc>http://localhost:1313/SoftwareDevelopment/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/kernel/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sysadmin/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/watchdog/</loc>
+    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</loc>
     <lastmod>2024-06-17T22:13:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Linux/linuxrebootcheck/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-06-17T22:13:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/tags/python/</loc>
-    <lastmod>2024-06-17T22:13:08+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/tags/sysadmin/</loc>
-    <lastmod>2024-06-17T22:13:08+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/tags/</loc>
-    <lastmod>2024-06-17T22:13:08+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Cloud/cloudarticle1/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Cloud/cloudarticle1/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/tags/kernel/</loc>
+    <loc>http://localhost:1313/tags/softlockup/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Linux/Kernel/softlockup/Kernel-Watchdog-and-softlockups/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/tags/softlockup/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/tags/windows/</loc>
+    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-17T22:17:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</loc>
+    <loc>http://localhost:1313/authors/John-Doe/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:40737/</loc>
-    <lastmod>2024-06-17T22:14:38+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/authors/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/authors/John-Doe/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40737/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
