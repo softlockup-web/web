@@ -1,11 +1,10 @@
 ---
 title: How to Track Registry Key Modifications Using Process Monitor
 description: "How to Track Registry Key Modifications Using Process Monitor - a quick guide"
-date: 2024-06-18T12:16:04-07:00
+date: 2024-06-18T12:16:04+01:00
 author: "Dmitry Porotnikov"
 authorURL: "https://github.com/dmitryporotnikov"
 tags: ["windows", "sysadmin", "sysinternals"]
-
 ---
 
 ## How to Track Registry Key Modifications Using Process Monitor
