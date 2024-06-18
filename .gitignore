@@ -1,2 +1,35 @@
+# Hugo files
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+/node_modules/
+/.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Hugo-generated files
+public/
+/resources/_gen/
+/hugo_stats.json
+
+# Log files
+*.log
+
+# System files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore deployment files
+netlify.toml
+.now/
+
 # Ignore macOS .DS_Store files
 .DS_Store
