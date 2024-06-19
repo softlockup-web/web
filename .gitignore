@@ -1,6 +1,6 @@
 # Hugo files
-/public/
-/resources/_gen/
+public/
+resources/_gen/
 /assets/jsconfig.json
 /node_modules/
 /.DS_Store
@@ -11,8 +11,6 @@
 *.swo
 
 # Hugo-generated files
-public/
-/resources/_gen/
 /hugo_stats.json
 
 # Log files
