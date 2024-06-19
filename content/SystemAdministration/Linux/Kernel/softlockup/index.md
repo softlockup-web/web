@@ -60,6 +60,36 @@ Ok, so you have a soft or hard lockup, what now? Here are some steps you can tak
 
 **3. Read the watchdog warning message:** The watchdog will print a warning message to the system log when a lockup is detected. This message may provide clues as to the cause of the lockup. Usually, the message will include a stack trace that shows where the CPU is stuck, also the name of the process that caused the lockup and it's PID.
 
+### Thresholds
+
+The watchdog has default thresholds for detecting soft and hard lockups. These thresholds can be adjusted to suit your system's needs. 
+Before changing thresholds, it is important to understand the implications of changing these values. **Setting the thresholds too low may result in false positives, while setting them too high may result in missed lockups.**
+
+**[Implementation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html#implementation)**
+
+> A periodic hrtimer runs to generate interrupts and kick the watchdog job. An NMI perf event is generated every “watchdog_thresh” (compile-time initialized to 10 and configurable through sysctl of the same name) seconds to check for hardlockups. If any CPU in the system does not receive any hrtimer interrupt during that time the ‘hardlockup detector’ (the handler for the NMI perf event) will generate a kernel warning or call panic, depending on the configuration.
+> The watchdog job runs in a stop scheduling thread that updates a timestamp every time it is scheduled. If that timestamp is not updated for 2*watchdog_thresh seconds (the softlockup threshold) the ‘softlockup detector’ (coded inside the hrtimer callback function) will dump useful debug information to the system log, after which it will call panic if it was instructed to do so or resume execution of other kernel code.
+
+
+Check current threshold:
+
+```bash
+cat /proc/sys/kernel/watchdog_thresh
+10
+```
+
+Update threshold to 30 seconds:
+
+```bash
+# For temporary change
+echo 30 > /proc/sys/kernel/watchdog_thresh
+
+# For permanent change
+echo "kernel.watchdog_thresh = 30" >> /etc/sysctl.conf
+sysctl -p
+```
+
+
 ### Advanced Troubleshooting
 
 The watchdog can be configured to panic the system when a lockup is detected. This can be done by setting the `softlockup_panic` or  `hardlockup_panic` parameters to a value greater than zero.:
@@ -227,6 +257,38 @@ Important information from the stack trace:
 - `TASK` - Indicates what calls where being executed when the lockup occurred.
 
 ![TASK Example](images/softlockex2.png)
+
+When comparing with source code, you can identify the function that caused the lockup. In this case, the `test_wait` function in the `soft` module caused the lockup.
+
+[**test_lockup.c**](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/lib/test_lockup.c)
+```C
+static void test_wait(unsigned int secs, unsigned int nsecs)
+{
+	if (wait_state == TASK_RUNNING) {
+		if (secs)
+			mdelay(secs * MSEC_PER_SEC);
+		if (nsecs)
+			ndelay(nsecs);
+		return;
+	}
+
+	__set_current_state(wait_state);
+	if (use_hrtimer) {
+		ktime_t time;
+
+		time = ns_to_ktime((u64)secs * NSEC_PER_SEC + nsecs);
+		schedule_hrtimeout(&time, HRTIMER_MODE_REL);
+	} else {
+		schedule_timeout(secs * HZ + nsecs_to_jiffies(nsecs));
+	}
+}
+``` 
+### Why did it hang? 
+- The `test_wait` function was waiting in the `TASK_RUNNING` state, which caused the CPU to be stuck in a loop.
+- Since we are loading a module, the execution will be in kernel mode, and the watchdog will detect the lockup.
+- The mdelay function was used to delay the execution of the function for a specified number of milliseconds. In this case, the function was delayed for 35 seconds, which caused the lockup.
+
+<p>&nbsp;</p>
 
 # Final Thoughts
 

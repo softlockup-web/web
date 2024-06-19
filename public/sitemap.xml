@@ -29,23 +29,47 @@
     <loc>http://localhost:1313/SoftwareDevelopment/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kernel/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+    <loc>http://localhost:1313/SystemAdministration/Windows/How-to-Track-Registry-Key-Modifications-Using-Process-Monitor/</loc>
+    <lastmod>2024-06-18T13:56:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sysadmin/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sysinternals/</loc>
+    <lastmod>2024-06-18T13:56:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/windows/</loc>
+    <lastmod>2024-06-18T14:03:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/azure/</loc>
+    <lastmod>2024-06-18T14:03:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Windows/how-hyper-v-works-high-level-overview/</loc>
+    <lastmod>2024-06-18T13:56:53+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hyperv/</loc>
+    <lastmod>2024-06-18T13:56:53+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Cloud/windows-server-azure-vm-in-place-upgrade/</loc>
+    <lastmod>2024-06-18T14:03:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/upgrade/</loc>
+    <lastmod>2024-06-18T14:03:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kernel/</loc>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SystemAdministration/Linux/Kernel/softlockup/</loc>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/watchdog/</loc>
-    <lastmod>2024-06-18T00:40:04-07:00</lastmod>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SystemAdministration/Linux/linuxrebootcheck/</loc>
     <lastmod>2024-06-17T22:13:08+01:00</lastmod>
@@ -53,23 +77,8 @@
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-06-17T22:13:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/SystemAdministration/Cloud/cloudarticle1/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/softlockup/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/windows/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</loc>
-    <lastmod>2024-06-17T14:40:30+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-17T22:17:57+01:00</lastmod>
+    <lastmod>2024-06-18T22:42:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
     <lastmod>2024-06-17T14:40:30+01:00</lastmod>
