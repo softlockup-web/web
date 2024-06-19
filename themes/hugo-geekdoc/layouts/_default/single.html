@@ -8,7 +8,15 @@
     <h1>{{ partial "utils/title" . }}</h1>
     
     {{ partial "utils/content" . }}
+
   </article>
+
+  <div class="flex flex-25 justify-end">
+    <h2> Share Article   </h2>
+    <h3>{{ partial "share-buttons" . }}</h3>
+    
+</div>
+
   <footer class="article-footer">
     {{ if .Params.authorURL }}
     <p><strong>Author:</strong> <a href="{{ .Params.authorURL }}">{{ .Params.author }}</a></p>
