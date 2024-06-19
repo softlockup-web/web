@@ -134,3 +134,7 @@ html {
 .article-footer a:hover {
   text-decoration: underline;
 }
+
+.align-right {
+  text-align: right;
+}
