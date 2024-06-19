@@ -2,9 +2,6 @@
   <nav class="container flex">
     <div>
       <section class="flex flex-wrap align-center">
-        <span class="gdoc-footer__item gdoc-footer__item--row">
-          {{ i18n "footer_build_with" | safeHTML }}
-        </span>
         {{ with .Site.Params.geekdocLegalNotice }}
           <span class="gdoc-footer__item gdoc-footer__item--row">
             <a href="{{ . | relURL }}" class="gdoc-footer__link">
@@ -19,6 +16,21 @@
             </a>
           </span>
         {{ end }}
+        <span class="gdoc-footer__item gdoc-footer__item--row">
+          <a href="https://github.com/softlockup-web/web/issues" class="gdoc-footer__link">
+            Open an Issue
+          </a>
+        </span> 
+        <span class="gdoc-footer__item gdoc-footer__item--row">
+          <a href="mailto:contact@softlockup.com" class="gdoc-footer__link">
+            Contact Us
+          </a>
+        </span>
+        <span class="gdoc-footer__item gdoc-footer__item--row">
+          <a href="https://github.com/softlockup-web/web/blob/main/LICENSE" class="gdoc-footer__link">
+            License
+          </a>
+        </span>
       </section>
       {{ with .Site.Params.geekdocContentLicense }}
         <section class="flex flex-wrap align-center">
