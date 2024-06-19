@@ -6,21 +6,28 @@
     <description>Recent content in Windows on SoftLockup</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 14:40:30 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 14:03:45 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Windows Article 1</title>
-      <link>http://localhost:1313/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</link>
-      <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
-      <guid>http://localhost:1313/SystemAdministration/Windows/WindowsPage1/WindowsArticle1/</guid>
-      <description>asdsd</description>
+      <title>How to Track Registry Key Modifications Using Process Monitor</title>
+      <link>http://localhost:1313/SystemAdministration/Windows/How-to-Track-Registry-Key-Modifications-Using-Process-Monitor/</link>
+      <pubDate>Tue, 18 Jun 2024 12:16:04 +0100</pubDate>
+      <guid>http://localhost:1313/SystemAdministration/Windows/How-to-Track-Registry-Key-Modifications-Using-Process-Monitor/</guid>
+      <description>How to Track Registry Key Modifications Using Process Monitor&#xD;Modifying registry keys is a common operation that can be performed by both system and user processes. But what happens when a registry key value changes unexpectedly, leading to system behavior that’s hard to diagnose? Knowing exactly which process modified a registry key can be invaluable in system administration and debugging scenarios. One powerful tool that can help you identify such changes in real-time is Sysinternals Process Monitor.</description>
     </item>
     <item>
-      <title>Windows Article 2</title>
-      <link>http://localhost:1313/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</link>
-      <pubDate>Thu, 19 Oct 2023 00:40:04 -0700</pubDate>
-      <guid>http://localhost:1313/SystemAdministration/Windows/WindowsPage2/WindowsArticle2/</guid>
-      <description>sdssd</description>
+      <title>How Hyper-V Works, High Level Overview</title>
+      <link>http://localhost:1313/SystemAdministration/Windows/how-hyper-v-works-high-level-overview/</link>
+      <pubDate>Tue, 18 Jun 2024 11:16:04 +0100</pubDate>
+      <guid>http://localhost:1313/SystemAdministration/Windows/how-hyper-v-works-high-level-overview/</guid>
+      <description>How Hyper-V Works, High Level Overview&#xD;Hyper-V stands as Microsoft’s first standalone hypervisor, offering extensive support for the x86-64 architecture. It has established its own space in the virtualization market, going toe-to-toe with competitors like VMware ESXi, Xen, and KVM. One of its distinct advantages is its native integration with Microsoft-centric environments.&#xA;Contrary to many Type 2 hypervisors that function atop an existing operating system, Hyper-V is a Type 1 hypervisor that interacts directly with the hardware.</description>
+    </item>
+    <item>
+      <title>In Place Upgrade Your Windows Server Azure VM: Step by Step Guide</title>
+      <link>http://localhost:1313/SystemAdministration/Cloud/windows-server-azure-vm-in-place-upgrade/</link>
+      <pubDate>Tue, 18 Jun 2024 11:16:04 +0100</pubDate>
+      <guid>http://localhost:1313/SystemAdministration/Cloud/windows-server-azure-vm-in-place-upgrade/</guid>
+      <description>In Place Upgrade Your Windows Server Azure VM: Step by Step Guide&#xD;Upgrading your Windows Server Azure VM to a newer version can seem daunting, but with the right steps, it can be a smooth process. This guide will walk you through a step-by-step process, complete with visuals, to upgrade your Windows VM in Azure, for instance, from WS 2016 to 2019.&#xA;Prerequisites for a Successful Upgrade&#xD;Before diving into the upgrade, ensure the following prerequisites are met:</description>
     </item>
   </channel>
 </rss>
