@@ -7,19 +7,17 @@
       {{ .Content }}
     </article>
     <div class="articles">
-      <!-- List articles under content/Linux -->
-      {{ range where .Site.RegularPages "Section" "systemadministration" }}
+      <!-- List all articles -->
+      {{ range .Site.RegularPages }}
         <div class="article-block">
-          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <p class="description">{{ .Params.description }}</p>
-          <p class="date">{{ .Date.Format "2006-01-02" }}</p>
-        </div>
-      {{ end }}
-      
-      <!-- List articles under content/Windows -->
-      {{ range where .Site.RegularPages "Section" "windows" }}
-        <div class="article-block">
-          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="article-header">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ if .Params.icon }}
+              <div class="icon">
+                {{ partial "icons/icon" (dict "vendor" .Params.iconvendor "name" .Params.icon "color" .Params.iconcolor "size" "3em") }}
+              </div>
+            {{ end }}
+          </div>
           <p class="description">{{ .Params.description }}</p>
           <p class="date">{{ .Date.Format "2006-01-02" }}</p>
         </div>
