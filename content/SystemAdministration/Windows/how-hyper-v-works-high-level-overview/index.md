@@ -5,6 +5,10 @@ date: 2024-06-18T11:16:04+01:00
 author: "Dmitry Porotnikov"
 authorURL: "https://github.com/dmitryporotnikov"
 tags: ["windows", "sysadmin", "hyperv"]
+iconvendor: "lucide"
+icon: "monitor"
+iconcolor: "#50fa7b"
+---
 ---
 
 ## How Hyper-V Works, High Level Overview

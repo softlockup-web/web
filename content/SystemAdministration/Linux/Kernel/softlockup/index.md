@@ -1,10 +1,14 @@
 ---
 title: "Linux Kernel - Deep Dive into Soft/Hard Lockups"
-description: "This article dives into the depts of the Linux Kernel's watchdog. We explore its purpose, how it detects system hangs, the mechanisms behind its operation, and best practices for troubleshooting and resolving soft lockup issues. "
+description: "This article dives into the depts of the Linux Kernel's watchdog and how it handles soft and hard lockups."
 date: 2024-06-18T00:40:04-07:00
 author: "Samuel Matildes"
 authorURL: "https://github.com/samatild"
 tags: ["linux", "sysadmin", "kernel", "watchdog"]
+iconvendor: "lucide"
+icon: "lock"
+iconcolor: "#ff9580"
+---
 ---
 
 # Introduction

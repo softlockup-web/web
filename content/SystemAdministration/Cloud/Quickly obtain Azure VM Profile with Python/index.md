@@ -1,10 +1,13 @@
 ---
 title: Quickly Obtain Linux Azure VM Profile with Python
-description: "Profile Fetcher for Linux Azure VM is a script designed to simplify the process of retrieving and displaying detailed metadata about your Azure VMs. Learn how to use the script and how it can make the task of checking Azure VM profiles easier."
+description: "Learn how to quickly fetch Azure VM Profile from IMDS using a simple python."
 date: 2024-06-20T00:00:00-07:00
 author: "Samuel Matildes"
 authorURL: "https://github.com/samatild"
 tags: ["linux", "sysadmin", "python", "azure", "cloud"]
+iconvendor: "lucide"
+icon: "file-terminal"
+iconcolor: "#ff79c6"
 ---
 # Profile Fetcher for Linux Azure VM
 

@@ -5,6 +5,10 @@ date: 2024-06-18T12:16:04+01:00
 author: "Dmitry Porotnikov"
 authorURL: "https://github.com/dmitryporotnikov"
 tags: ["windows", "sysadmin", "sysinternals"]
+iconvendor: "lucide"
+icon: "file-sliders"
+iconcolor: "#f1fa8c"
+---
 ---
 
 ## How to Track Registry Key Modifications Using Process Monitor
