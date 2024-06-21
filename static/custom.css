@@ -95,6 +95,7 @@ html {
 }
 
 .article-block {
+  position: relative;
   border: 1px solid var(--accent-color);
   padding: 15px;
   border-radius: 5px;
@@ -102,8 +103,16 @@ html {
   color: var(--body-font-color);
 }
 
+.article-block .article-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .article-block h2 {
+  font-size: 1.3em;
   margin-top: 0;
+  margin-right: 2px; /* Add space between h2 and icon */
 }
 
 .article-block .description {
@@ -116,6 +125,12 @@ html {
   color: var(--control-icons);
   text-align: right;
 }
+
+.article-block .icon {
+  flex-shrink: 0; /* Prevent the icon from shrinking */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 .article-footer {
   border-top: 1px solid var(--accent-color);

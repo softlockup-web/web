@@ -5,6 +5,10 @@ date: 2024-06-18T11:16:04+01:00
 author: "Dmitry Porotnikov"
 authorURL: "https://github.com/dmitryporotnikov"
 tags: ["windows", "sysadmin", "azure", "upgrade"]
+iconvendor: "lucide"
+icon: "arrow-up-from-dot"
+iconcolor: "#bd93f9"
+---
 ---
 
 ## In Place Upgrade Your Windows Server Azure VM: Step by Step Guide

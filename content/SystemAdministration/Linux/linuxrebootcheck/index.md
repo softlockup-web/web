@@ -1,10 +1,14 @@
 ---
 title: Linux Reboot Quick Analyzer
-description: "Linux Boot Quick-Analyzer is a Python script that analyzes Linux boot and shutdown logs. It makes it easy to find boot and shutdown events in system logs."
+description: "Check your system latest reboot / start / shutdown signals using Python."
 date: 2024-06-17T00:40:04-07:00
 author: "Samuel Matildes"
 authorURL: "https://github.com/samatild"
 tags: ["linux", "sysadmin", "python"]
+iconvendor: "lucide"
+icon: "rotate-ccw"
+iconcolor: "#FF5555"
+---
 ---
 
 ## What is Linux Boot/Shutdown Quick-Analyzer and why do you need it?
