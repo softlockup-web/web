@@ -1,1 +1,6 @@
 pluralizeListTitles: false
+# Check https://icons.hugomods.com/docs/vendors/
+module:
+  imports:
+    # https://lucide.dev/icons/
+  - path: github.com/hugomods/icons/vendors/lucide
