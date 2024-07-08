@@ -14,7 +14,7 @@
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             {{ if .Params.icon }}
               <div class="icon">
-                {{ partial "icons/icon" (dict "vendor" .Params.iconvendor "name" .Params.icon "color" .Params.iconcolor "size" "3em") }}
+                {{ partial "icons/icon" (dict "vendor" .Params.iconvendor "name" .Params.icon "color" "var(--icon-color)" "size" "3em") }}
               </div>
             {{ end }}
           </div>

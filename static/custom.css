@@ -7,86 +7,118 @@
 /* Light mode theming */
 :root,
 :root[color-theme="light"] {
-  --header-background: #44475a;
-  --header-font-color: #f8f8f2;
-  --link-color-visited: #6272A4;
-  --article-body-background: #f5f5f5;
-  --link-color: #6272A4;
-  --footer-background: #44475a;
-  --footer-font-color: #f8f8f2;
-  --footer-link-color: #f1fa8c;
-  --footer-link-color-visited: #f1fa8c;
+  --body-background: #eeeeee;
+  --body-font-color: #2b2d30;
+  --header-background: #2b2d30;
+  --header-font-color: #eaeaea;
+  --mark-color: #b294bb;
+  --button-background: #bd93f9;
+  --button-border-color: #bd93f9;
+  --link-color: #556a7d;
+  --link-color-visited: #556a7d;
+  --code-background: #cfcdcd;
+  --code-accent-color: #eaeaea;
+  --code-accent-color-lite: #eaeaea;
+  --code-font-color: #2b2d30;
+  --code-copy-background: #666666;
+  --code-copy-font-color: #cfcdcd;
+  --code-copy-border-color: #2b2d30;
+  --code-copy-success-color: #b9ca4a;
+  --accent-color: #dddddd;
+  --accent-color-lite: #dddddd;
+  --control-icons: #c5c8c6;
+  --footer-background: #2b2d30;
+  --footer-font-color: #2b2d30;
+  --footer-link-color: #70c0b1;
+  --footer-link-color-visited: #70c0b1;
+  --icon-color: #c5c8c6;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --header-background: #44475a;
-    --header-font-color: #f8f8f2;
-    --link-color-visited: #6272A4;
-    --article-body-background: #f5f5f5;
-    --link-color: #6272A4;
-    --footer-background: #44475a;
-    --footer-font-color: #f8f8f2;
-    --footer-link-color: #f1fa8c;
-    --footer-link-color-visited: #f1fa8c;
+    --body-background: #eeeeee;
+    --body-font-color: #2b2d30;
+    --header-background: #666666;
+    --header-font-color: #eaeaea;
+    --mark-color: #b294bb;
+    --button-background: #bd93f9;
+    --button-border-color: #bd93f9;
+    --link-color: #556a7d;
+    --link-color-visited: #556a7d;
+    --code-background: #cfcdcd;
+    --code-accent-color: #eaeaea;
+    --code-accent-color-lite: #eaeaea;
+    --code-font-color: #2b2d30;
+    --code-copy-background: #666666;
+    --code-copy-font-color: #cfcdcd;
+    --code-copy-border-color: #2b2d30;
+    --code-copy-success-color: #b9ca4a;
+    --accent-color: #dddddd;
+    --accent-color-lite: #dddddd;
+    --control-icons: #c5c8c6;
+    --footer-background: #666666;
+    --footer-font-color: #2b2d30;
+    --footer-link-color: #70c0b1;
+    --footer-link-color-visited: #70c0b1;
+    --icon-color: #c5c8c6;
   }
 }
 
 /* Dark mode theming */
 :root[color-theme="dark"] {
-  --header-background: #44475a;
-  --header-font-color: #f8f8f2;
-  --article-body-background: #2e303e;
-  --body-background: #282a36;
-  --body-font-color: #f8f8f2;
-  --mark-color: #ff79c6;
+  --header-background: #2b2d30;
+  --header-font-color: #c5c8c6;
+  --body-background: #1d1f21;
+  --body-font-color: #c5c8c6;
+  --mark-color: #b294bb;
   --button-background: #bd93f9;
   --button-border-color: #bd93f9;
-  --link-color: #8be9fd;
-  --link-color-visited: #8be9fd;
-  --code-background: #1c1d25;
+  --link-color: #81a2be;
+  --link-color-visited: #81a2be;
+  --code-background: #2b2d30;
   --code-accent-color: #282a36;
   --code-accent-color-lite: #282a36;
-  --code-font-color: #f8f8f2;
+  --code-font-color: #c5c8c6;
   --code-copy-background: #282a36;
-  --code-copy-font-color: #f8f8f2;
+  --code-copy-font-color: #c5c8c6;
   --code-copy-border-color: #282a36;
-  --code-copy-success-color: #50fa7b;
-  --accent-color: #44475a;
-  --accent-color-lite: #44475a;
-  --control-icons: #f8f8f2;
-  --footer-background: #44475a;
-  --footer-font-color: #f8f8f2;
-  --footer-link-color: #f1fa8c;
-  --footer-link-color-visited: #f1fa8c;
+  --code-copy-success-color: #b5bd68;
+  --accent-color: #2b2d30;
+  --accent-color-lite: #2b2d30;
+  --control-icons: #c5c8c6;
+  --footer-background: #2b2d30;
+  --footer-font-color: #c5c8c6;
+  --footer-link-color: #81a2be;
+  --footer-link-color-visited: #81a2be;
+  --icon-color: #c5c8c6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-background: #44475a;
-    --header-font-color: #f8f8f2;
-    --article-body-background: #2e303e;
-    --body-background: #282a36;
-    --body-font-color: #f8f8f2;
-    --mark-color: #ff79c6;
+    --header-background: #2b2d30;
+    --header-font-color: #c5c8c6;
+    --body-background: #1d1f21;
+    --body-font-color: #c5c8c6;
+    --mark-color: #b294bb;
     --button-background: #bd93f9;
     --button-border-color: #bd93f9;
-    --link-color: #8be9fd;
-    --link-color-visited: #8be9fd;
-    --code-background: #1c1d25;
+    --link-color: #81a2be;
+    --link-color-visited: #81a2be;
+    --code-background: #2b2d30;
     --code-accent-color: #282a36;
     --code-accent-color-lite: #282a36;
-    --code-font-color: #f8f8f2;
+    --code-font-color: #c5c8c6;
     --code-copy-background: #282a36;
-    --code-copy-font-color: #f8f8f2;
+    --code-copy-font-color: #c5c8c6;
     --code-copy-border-color: #282a36;
-    --code-copy-success-color: #50fa7b;
-    --accent-color: #44475a;
-    --accent-color-lite: #44475a;
-    --control-icons: #f8f8f2;
-    --footer-background: #44475a;
-    --footer-font-color: #f8f8f2;
-    --footer-link-color: #f1fa8c;
-    --footer-link-color-visited: #f1fa8c;
+    --code-copy-success-color: #b5bd68;
+    --accent-color: #2b2d30;
+    --accent-color-lite: #2b2d30;
+    --control-icons: #c5c8c6;
+    --footer-background: #2b2d30;
+    --footer-font-color: #c5c8c6;
+    --footer-link-color: #81a2be;
+    --footer-link-color-visited: #81a2be;
+    --icon-color: #c5c8c6;
   }
 }
 
@@ -107,7 +139,7 @@ html {
   border: 1px solid var(--accent-color);
   padding: 15px;
   border-radius: 5px;
-  background-color: var(--article-body-background);
+  background-color: var(--body-background);
   color: var(--body-font-color);
 }
 
@@ -161,17 +193,6 @@ html {
 .align-right {
   text-align: right;
 }
-
-Apply for is-active of gdoc-nav__entry
-.gdoc-language__entry:hover,
-.gdoc-nav__entry:hover {
-  text-decoration:underline;
-  text-decoration-style:solid !important;
-
-}
-.gdoc-nav__entry.is-active,
-.gdoc-language__entry.is-active {
-  text-decoration:underline;
-  text-decoration-style:solid !important;
-  color:var(--link-color)
+.gdoc-nav__entry {
+  font-size: 0.97em;
 }
