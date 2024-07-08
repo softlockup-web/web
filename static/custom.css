@@ -37,7 +37,7 @@
   :root {
     --body-background: #eeeeee;
     --body-font-color: #2b2d30;
-    --header-background: #666666;
+    --header-background: #2b2d30;
     --header-font-color: #eaeaea;
     --mark-color: #b294bb;
     --button-background: #bd93f9;
@@ -55,7 +55,7 @@
     --accent-color: #dddddd;
     --accent-color-lite: #dddddd;
     --control-icons: #c5c8c6;
-    --footer-background: #666666;
+    --footer-background: #2b2d30;
     --footer-font-color: #2b2d30;
     --footer-link-color: #70c0b1;
     --footer-link-color-visited: #70c0b1;
