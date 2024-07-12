@@ -1,11 +1,5 @@
 ---
 header:
-  - name: Tutorials
-    ref: "/tags/tutorial"
-    icon: gdoc_tutorial
-  - name: Scripts
-    ref: "/tags/script"
-    icon: gdoc_script
   - name: GitHub
     ref: https://github.com/softlockup-web/web
     icon: gdoc_github
